@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
-import ToDo from './ToDo'
+import FormToDo from './components/FormToDo'
 
 function App() {
   const [todo, setToDo] = useState([
@@ -8,23 +8,11 @@ function App() {
     {id : 2, valeur:"Devoir" },
     {id : 3, valeur:"Faire a manger" }
   ])
-  const [newTodo,setNewTodo]=useState("");
-
-  const handleSubmit=(event)=>{
-    event.preventDefault();
-  }
-
-  const handleChange=(event)=>{
-      setNewTodo(event.target.value);
-  }
-
-  const handleAdd=(event)=>{
-    event.preventDefault();
+ 
+  const handleState=(todoCopyToAdd)=>{
     const todoCopy=[...todo];
-    const todoCopyToAdd={id: new Date().getTime(),valeur:newTodo}
     todoCopy.push(todoCopyToAdd);
     setToDo(todoCopy);
-    setNewTodo("");
   }
 
   const handleDelete=(id)=>{
@@ -36,12 +24,7 @@ function App() {
   return (
     <>
       <h1 className='text-7xl'>To-Do List</h1>
-      <form action='submit'onSubmit={handleSubmit}>
-        <label className="input input-bordered flex items-center gap-2">
-          <input value={newTodo} type="text" className="grow" placeholder="To do ..." onChange={handleChange}/>
-          <button onClick={handleAdd}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
-        </label>
-      </form>
+      <FormToDo handleState={handleState} ></FormToDo>
       <ul>
         {todo.map(todoValue=>(
             <li key={todo.id}>
