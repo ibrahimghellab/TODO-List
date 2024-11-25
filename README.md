@@ -71,13 +71,16 @@ npm run dev
    - Click the **trash icon** next to any task to remove it from the list.  
 
 ## 🌈 Example
-1.
+1. Landing on the To-Do List page
+A simple interface displays an empty or existing list with an "Add Task" button.
 ![image](https://github.com/user-attachments/assets/c308d5a0-a55c-4ae7-9466-9fb8d1a41297)
 
-2.
+2. Typing "Go shopping"
+The user enters "Go shopping" in the input field designed for adding a task.
 ![image](https://github.com/user-attachments/assets/8ca29485-e9d6-49b2-b571-db5dcafdadc6)
 
-3.
+3. Adding the task
+After clicking "Add Task", the task "Go shopping" appears in the list.
 ![image](https://github.com/user-attachments/assets/2245b178-d52e-4943-a97b-50e29275d088)
 
 
