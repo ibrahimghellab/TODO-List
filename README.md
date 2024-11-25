@@ -85,4 +85,3 @@ npm run dev
 ## 📜 License
 
 This project is for educational purposes only. Please review and comply with each API provider's terms of use.
->>>>>>> b6dc66073e43176f0b208e5f5620693aca775930
