@@ -3,7 +3,6 @@ export default function ToDo({todoInfo,handleDelete,key}){
 
     return (
         <>
-        {/* eslint-disable-next-line react/prop-types*/}
           <li key={key}>
             
               {/* eslint-disable-next-line react/prop-types*/}
