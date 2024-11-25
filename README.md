@@ -5,8 +5,8 @@ To-Do List is my first react application, it is a web application that helps use
 
 ## ✨ Features
 
-- ** ➕ Add Tasks: Quickly add tasks to your list.
-- ** ❌ Delete Tasks: Remove tasks once they're done or no longer needed.
+- **➕ Add Tasks: Quickly add tasks to your list.
+- **❌ Delete Tasks: Remove tasks once they're done or no longer needed.
 
 ## 🛠️ Technologies
 
