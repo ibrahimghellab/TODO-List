@@ -30,16 +30,16 @@ To-Do List is my first react application, it is a web application that helps use
    ```
 2. 📦 Navigate to the project directory and install dependencies:
 
-```bash
-cd TODO-List  
-npm install
-```
+   ```bash
+   cd TODO-List  
+   npm install
+   ```
 3. ⚛️ Ensure React and Tailwind CSS are properly set up in your environment.
    
 4. ⚡ Start the development server with Vite:
-```bash
-npm run dev
-```  
+   ```bash
+   npm run dev
+   ```  
 5. 🌐 Open the app in your browser at the local Vite development server URL (usually http://localhost:5173).
 
 
@@ -83,6 +83,9 @@ The user enters "Go shopping" in the input field designed for adding a task.
 After clicking "Add Task", the task "Go shopping" appears in the list.
 ![image](https://github.com/user-attachments/assets/2245b178-d52e-4943-a97b-50e29275d088)
 
+4. Deleting the task
+After clicking on the trash, the task "Go shopping" is removed from the list, and the updated list is displayed.
+![image](https://github.com/user-attachments/assets/2c175995-a4d5-48f2-9185-8f15cbab7147)
 
 
 ## 📜 License
