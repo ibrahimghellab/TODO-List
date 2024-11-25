@@ -1,6 +1,6 @@
 # 📝 React To-Do List
 
-To-Do List is a web application that helps users manage their daily tasks efficiently 📝. Users can add, view, and delete tasks with ease. The app features a clean and simple interface, making it easy to stay organized and focused on completing tasks.
+To-Do List is my first react application, it is a web application that helps users manage their daily tasks efficiently 📝. Users can add, view, and delete tasks with ease. The app features a clean and simple interface, making it easy to stay organized and focused on completing tasks.
 
 ## ✨ Features
 
@@ -29,44 +29,45 @@ To-Do List is a web application that helps users manage their daily tasks effici
    ```
 2. 📦 Navigate to the project directory and install dependencies:
 
-```bash```
+```bash
 cd TODO-List  
 npm install
-
-3.Copier le code
-cd TODO-List  
-npm install  
-⚡ Start the development server with Vite:
-
-bash
-Copier le code
-npm run dev  
-🛠️ Make sure to configure any required environment variables or API keys in a .env file (if applicable).
-
-🌐 Open the app in your browser at the local Vite development server URL (usually http://localhost:5173).
-
-1. 📂 Clone the repository or download the project files.
-2. 🔑 Replace any necessary configuration details in the code (if applicable).
+```
 3. ⚛️ Ensure React and Tailwind CSS are properly set up in your environment.
+   
+4. ⚡ Start the development server with Vite:
+```bash
+npm run dev
+```  
+5. 🌐 Open the app in your browser at the local Vite development server URL (usually http://localhost:5173).
 
-### Running the Application
 
-1. Open `index.html` in your browser.
-2. The app will automatically detect your location and display local weather.
-3. To search weather for a different location:
-   - Enter the country and city.
-   - Click the **"Get Weather"** button.
+## 📁 Project Structure  
 
-## 📁 Project Structure
+- **`public/`**: Contains static assets for the app.  
+- **`src/`**: Core application code.  
+  - **`components/`**: Holds reusable React components.  
+    - `FormToDo.jsx`: Component for adding tasks.  
+    - `ToDo.jsx`: Component for displaying individual tasks.  
+  - `App.jsx`: Main application logic and state management.  
+  - `main.jsx`: Entry point for rendering the app.  
+  - `index.css`: Global styles using Tailwind CSS.  
+- **`index.html`**: The main HTML template.  
+- **`tailwind.config.js`**: Tailwind CSS configuration file.  
+- **`vite.config.js`**: Configuration file for Vite.  
+- **`postcss.config.js`**: PostCSS configuration for styling.  
+- **`.gitignore`**: Specifies files and directories to ignore in version control.  
+- **`package.json`**: Lists dependencies and project metadata.  
+- **`README.md`**: Project documentation.  
 
-- `index.html`: Main HTML file.
-- `style.css`: Stylesheet for the app.
-- `app.js`: JavaScript file that manages API requests and updates the DOM.
+## 💡 Usage  
 
-## 💡 Usage
-
-1. **Auto Weather Display**: On page load, the app fetches weather data based on IP location.
-2. **Search for Weather**: Enter a city and country in the fields, then click “Get Weather” to display the weather data.
+1. **Auto Task Display**: Upon loading, the app displays the pre-existing tasks from the state.  
+2. **Add a Task**:  
+   - Enter the task name in the input field.  
+   - Click the **"+"** button to add the task to your list.  
+3. **Delete a Task**:  
+   - Click the **trash icon** next to any task to remove it from the list.  
 
 ## 🌈 Example
 
