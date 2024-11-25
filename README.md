@@ -1,7 +1,7 @@
 
 # 📝 React To-Do List
 
-To-Do List is my first react application, it is a web application that helps users manage their daily tasks efficiently 📝. Users can add, view, and delete tasks with ease. The app features a clean and simple interface, making it easy to stay organized and focused on completing tasks.
+To-Do List is my first react js project, it is a web application that helps users manage their daily tasks efficiently 📝. Users can add, view, and delete tasks with ease. The app features a clean and simple interface, making it easy to stay organized and focused on completing tasks.
 
 ## ✨ Features
 
