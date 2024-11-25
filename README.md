@@ -5,8 +5,8 @@ To-Do List is my first react application, it is a web application that helps use
 
 ## ✨ Features
 
-- **➕ Add Tasks: Quickly add tasks to your list.
-- **❌ Delete Tasks: Remove tasks once they're done or no longer needed.
+- **➕ Add Tasks: Quickly add tasks to your list.**
+- **❌ Delete Tasks: Remove tasks once they're done or no longer needed.**
 
 ## 🛠️ Technologies
 
@@ -71,13 +71,16 @@ npm run dev
    - Click the **trash icon** next to any task to remove it from the list.  
 
 ## 🌈 Example
+1.
+![image](https://github.com/user-attachments/assets/c308d5a0-a55c-4ae7-9466-9fb8d1a41297)
 
-For example, entering "France" and "Paris" and clicking **"Get Weather"** will display:
-- 📅 The date.
-- 🌡️ Current temperature in Celsius.
-- 👕 "Feels like" temperature.
-- 💧 Humidity percentage.
-- 🌤️ Weather icon.
+2.
+![image](https://github.com/user-attachments/assets/8ca29485-e9d6-49b2-b571-db5dcafdadc6)
+
+3.
+![image](https://github.com/user-attachments/assets/2245b178-d52e-4943-a97b-50e29275d088)
+
+
 
 ## 📜 License
 
