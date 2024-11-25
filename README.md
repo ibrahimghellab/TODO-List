@@ -88,6 +88,3 @@ After clicking on the trash, the task "Go shopping" is removed from the list, an
 ![image](https://github.com/user-attachments/assets/2c175995-a4d5-48f2-9185-8f15cbab7147)
 
 
-## 📜 License
-
-This project is for educational purposes only. Please review and comply with each API provider's terms of use.
